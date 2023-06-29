@@ -7,7 +7,6 @@
 }
 
 html{
-    position: fixed;
     width:1920px;
     height:1080px;
 }
@@ -80,11 +79,11 @@ i {
     height:723px;
     position: absolute;
     top:70px;
-    left:335px;
+    left:315px;
     border-radius:130px;
     background:linear-gradient(#4762FF, #78B6FF);
     box-shadow: 25px 0px 36px -1px rgba(0, 0, 0, 0.23);
-    z-index: 1;
+    z-index: 2;
 }
 
 .bluebox>i{
@@ -116,6 +115,7 @@ i {
     font-family: 'Jua', sans-serif;
     font-weight: 400;
     font-size: 90px;
+    z-index:1;
 }
 
 .bluebox>.text3{
@@ -133,11 +133,11 @@ i {
 }
 
 .whitebox{
-    width:670px;
+    width:770px;
     height:600px;
     position:absolute;
     top:260px;
-    right:335px;
+    right:260px;
     background:white;
     border-radius:100px;
     box-shadow: 38px 22px 65px 0px rgba(0, 0, 0, 0.25);
@@ -186,7 +186,7 @@ i {
 
 .whitebox>.text4>input{
     box-sizing: border-box;
-    width:433.81px;
+    width:523.81px;
     height:65px;
     position:absolute;
     top:200px;
@@ -233,7 +233,7 @@ i {
 
 .whitebox>.text5>input{
     box-sizing:border-box;
-    width: 433.1px;
+    width: 523.81px;
     height: 65px;
     position: absolute;
     top: 315px;
@@ -326,7 +326,7 @@ i {
 }
 
 .whitebox>button{
-    width: 433.81px;
+    width: 523.81px;
     height: 65px;
     position: absolute;
     top: 463px;
@@ -347,7 +347,7 @@ i {
     background-color: #4967FF;
     position: absolute;
     top: 805px;
-    right: 675px;
+    right: 652px;
 }
 
 .circle2{
@@ -357,7 +357,7 @@ i {
     background-color: #4967FF;
     position:absolute;
     top:805px;
-    right:660px;
+    right:637px;
 }
 
 .circle3{
@@ -367,5 +367,5 @@ width: 9.19px;
     background-color: #4967FF;
     position: absolute;
     top: 805px;
-    right: 645px;
+    right: 622px;
 }
