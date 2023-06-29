@@ -42,7 +42,7 @@ body{
     width:460px;
     height:460px;
     position:absolute;
-    top:-242px;
+    top:-282px;
     left:1123px;
     background-color:#2A38B1;
     border-radius:50%;
@@ -79,7 +79,7 @@ i {
     height:723px;
     position: absolute;
     top:70px;
-    left:315px;
+    left:305px;
     border-radius:130px;
     background:linear-gradient(#4762FF, #78B6FF);
     box-shadow: 25px 0px 36px -1px rgba(0, 0, 0, 0.23);
