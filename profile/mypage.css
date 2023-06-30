@@ -2,16 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
 
-html, body {
-    height:100%;
-}
-
 body{
-    background: linear-gradient(#CDCDCD, #F5F5F5);
-    background-repeat: no-repeat;
-    /*화면의 높이 길이가 길어졌는데, 배경색이 안늘어나고 중간에서 끊겨서 임의로 크기 지정했는데, 이 방법 말고는 없을까요?*/
-    /*추가로 맨 밑인 하단에 여백을 주고 싶은데 여백 지정이 안되는 오류 발생*/
-    background-size:1920px 2300px;
+    background: linear-gradient(#CDCDCD, #F5F5F5) no-repeat center fixed;
 }
 
 .circle{
