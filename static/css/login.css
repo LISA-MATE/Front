@@ -264,7 +264,7 @@ i {
     border: 2px solid #4967FF;
     border-radius: 50%;
     background: #4967FF;
-    background-image: url("./check.png");
+    background-image: url("../image/check.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -279,11 +279,13 @@ i {
     font-weight: 400;
     font-size: 13px;
     color: #C4C4C4;
+    cursor:pointer;
 }
 
 .whitebox>.text6>label>[type="checkbox"]:checked+p{
     color:#4967FF;
 }
+
 
 .whitebox>.text7>p{
     position: absolute;

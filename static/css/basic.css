@@ -16,31 +16,32 @@ body{
     left:480px;
 }
 
-p{
-    position:absolute;
-    top:-30px;
-    left:62px;
-    font-family: 'Jua', sans-serif;
-    font-weight:400;
-    font-size:60px;
-    color:#233C9B;
+p {
+    position: absolute;
+    top: 102px;
+    left: 128px;
+    color: #233C9B;
+    width: auto;
+    font-size: 100px;
+    font-family: 'Jua';
+    font-weight: 400;
 }
 
-.text1>p{
+.text1>p {
     position:absolute;
-    top: 164px;
-    left:143px;
+    top: 2px;
+    left: 62px;
+    color: #242A57;
+    font-size: 30px;
     font-family: 'Inter', sans-serif;
-    font-weight:400;
-    font-size:30px;
-    color:#242A57;
+    font-weight: 400;
 }
 
 i{
     width:36.94px;
     height:43.99px;
     position:absolute;
-    top:71px;
+    top:51px;
     left:1626px;
     color:#181D45;
     cursor:pointer;
@@ -50,7 +51,7 @@ i{
     width:50px;
     height:50px;
     position:absolute;
-    top:71px;
+    top:51px;
     left: 1689.59px;
     color:#181D45;
 }
@@ -59,7 +60,7 @@ i{
     width:37px;
     height:30px;
     position:absolute;
-    top:72px;
+    top:52px;
     left:1759px;
     color:#181D45;
 }
@@ -69,26 +70,51 @@ i{
     height:12px;
     border-radius:50%;
     position:absolute;
-    top:63px;
+    top:43px;
     left:1775px;
     background-color:#FF5050;
 }
 
-.text2>p{
-    position:absolute;
-    top:180px;
-    left:1640px;
+.text2>p {
+    position: absolute;
+    top: 210px;
+    left: 1497px;
     font-family: 'Inter', sans-serif;
-    font-weight:600;
-    font-size:30px;
-    color:#525253;
+    font-weight: 600;
+    font-size: 30px;
+    color: #0F3FE8;
+    cursor: pointer;
 }
 
+.text2-1>p {
+    position: absolute;
+    top: 210px;
+    left: 1676px;
+    width:100px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #242A57;
+    cursor: pointer;
+}
+
+.text2-2>p {
+    position: absolute;
+    top: 210px;
+    left: 1650px;
+    width:50px;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #000000;
+
+}
 .user {
     width: 292px;
     height: 51px;
     position: absolute;
-    top: 316px;
+    top: 455px;
     left: 222px;
     border-radius: 100px;
     background-color: #0015AD;
@@ -108,7 +134,7 @@ i{
     width:292px;
     height:393px;
     position:absolute;
-    top:316px;
+    top:455px;
     left:223px;
     border-radius:50px;
     border: 1px solid #919191;
@@ -198,7 +224,7 @@ i{
     width:274px;
     height:1049px;
     position:absolute;
-    top:773px;
+    top:920px;
     left:230px;
     border-radius: 50px;
     border: 1px solid #919191;
@@ -211,7 +237,7 @@ i{
     height:76px;
     background-color:#131B5A;
     position:absolute;
-    top:773px;
+    top:920px;
     left:230px;
     box-shadow: 0px 9px 11px 0px rgba(0, 0, 0, 0.29);
 }
@@ -231,7 +257,7 @@ i{
     height:76px;
     background-color:#131B5A;
     position:absolute;
-    top:773px;
+    top:920px;
     left:457.84px;
     border-radius: 0 76px 76px 0;
     box-shadow: 9px 5px 11px 0px rgba(0, 0, 0, 0.29);
@@ -242,7 +268,7 @@ i{
     height: 76px;
     background-color: #131B5A;
     position: absolute;
-    top: 992px;
+    top: 1139px;
     left: 230px;
     box-shadow: 0px 9px 11px 0px rgba(0, 0, 0, 0.29);
 }
@@ -262,7 +288,7 @@ i{
     height: 76px;
     background-color: #131B5A;
     position: absolute;
-    top: 992px;
+    top: 1139px;
     left: 457.84px;
     border-radius: 0 76px 76px 0;
     box-shadow: 9px 5px 11px 0px rgba(0, 0, 0, 0.29);
@@ -272,7 +298,7 @@ i{
     width:243px;
     height:65px;
     position:absolute;
-    top:864px;
+    top:1007px;
     left:248px;
     border-radius:40px;
 }
@@ -302,7 +328,7 @@ i{
     width: 243px;
     height: 65px;
     position: absolute;
-    top: 914px;
+    top: 1057px;
     left: 248px;
     border-radius: 40px;
 }
@@ -330,7 +356,7 @@ i{
 
 .information>p{
     position:absolute;
-    top:1083px;
+    top:1226px;
     left:300px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -343,7 +369,7 @@ i{
     width: 243px;
     height: 40px;
     position: absolute;
-    top: 1171px;
+    top: 1314px;
     left: 247px;
     border-radius: 40px;
 }
@@ -373,7 +399,7 @@ i{
     width: 243px;
     height: 40px;
     position: absolute;
-    top: 1222px;
+    top: 1365px;
     left: 247px;
     border-radius: 40px;
 }
@@ -403,7 +429,7 @@ i{
     width: 243px;
     height: 40px;
     position: absolute;
-    top: 1273px;
+    top: 1416px;
     left: 247px;
     border-radius: 40px;
 }
@@ -431,7 +457,7 @@ i{
 
 .information>hr{
     position:absolute;
-    top:1330px;
+    top:1473px;
     left:230px;
     width:273px;
     border:1px solid #131B5A;
@@ -439,7 +465,7 @@ i{
 
 .review>p{
     position:absolute;
-    top:1358px;
+    top:1501px;
     left: 300px;
     font-family: 'Inter', sans-serif;
     font-weight:600;
@@ -451,7 +477,7 @@ i{
     width: 243px;
     height: 40px;
     position: absolute;
-    top: 1446px;
+    top: 1589px;
     left: 247px;
     border-radius: 40px;
 }
@@ -481,7 +507,7 @@ i{
     width: 243px;
     height: 40px;
     position: absolute;
-    top: 1497px;
+    top: 1640px;
     left: 247px;
     border-radius: 40px;
 }
@@ -511,7 +537,7 @@ i{
     width: 243px;
     height: 40px;
     position: absolute;
-    top: 1548px;
+    top: 1691px;
     left: 247px;
     border-radius: 40px;
 }
@@ -539,7 +565,7 @@ i{
 
 .review>hr {
     position: absolute;
-    top: 1600px;
+    top: 1743px;
     left: 230px;
     width: 273px;
     border: 1px solid #131B5A;
@@ -547,7 +573,7 @@ i{
 
 .town>p {
     position: absolute;
-    top: 1623px;
+    top: 1766px;
     left: 275px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -559,7 +585,7 @@ i{
     width: 243px;
     height: 40px;
     position: absolute;
-    top: 1706px;
+    top: 1849px;
     left: 247px;
     border-radius: 40px;
 }
@@ -588,7 +614,7 @@ i{
     width: 243px;
     height: 40px;
     position: absolute;
-    top: 1757px;
+    top: 1900px;
     left: 247px;
     border-radius: 40px;
 }
@@ -619,7 +645,7 @@ i{
     width:292px;
     height:51px;
     position:absolute;
-    top:1886px;
+    top:2033px;
     left:223px;
     border-radius: 100px;
     background-color:#0015AD;
@@ -639,7 +665,7 @@ i{
     width:292px;
     height:378px;
     position:absolute;
-    top:1886px;
+    top:2033px;
     left:223px;
     border: 1px solid #919191;
     border-radius:50px;
@@ -665,214 +691,10 @@ i{
     font-size: 20px;
     font-weight: 400;
     z-index:1;
-    text-align:center;
     position:absolute;
     top:280px;
     left: 0;
     right: 0;
     margin: auto;
+    text-align: center;
 }
-
-.profile>i{
-    width:36.67px;
-    height:35.75px;
-    position:absolute;
-    top:340px;
-    left:610px;
-    color:#142F9E;
-}
-
-.profile>p{
-    position:absolute;
-    top:265px;
-    left:650px;
-    font-family: 'Inter', sans-serif;
-    font-size: 45px;
-    font-weight: 600;
-    color:#142F9E;
-}
-
-.profile>.profilebox{
-    width:1200px;
-    height:783px;
-    position:absolute;
-    top:390px;
-    left:583px;
-    border: 1px solid #919191;
-    border-radius:70px;
-    background-color:white;
-    box-shadow:inset 6px -5px 28px 0px rgba(0, 0, 0, 0.28);
-}
-
-.profile>.profilebox>p{
-    position:absolute;
-    top:-25px;
-    left:90px;
-    font-family: 'Inter', sans-serif;
-    font-size: 85px;
-    font-weight: 600;
-    color: #142F9E;
-}
-
-.profile>.profilebox>.emailbox{
-    width:480px;
-    height:61px;
-    position:absolute;
-    top:190px;
-    left:95px;
-    border-radius:100px;
-    background-color:#0015AD;
-    opacity:0.6;
-    box-shadow:0px 7px 14px 0px rgba(0, 0, 0, 0.32);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 32px;
-    color: white;
-}
-
-.profile>.profilebox>.photo{
-    width:353px;
-    height:359px;
-    position:absolute;
-    top:80px;
-    left:780px;
-    border: 2px solid #142F9E;
-    border-radius:50%;
-    background:linear-gradient(#CFCFCF, #FFFFFF);
-}
-
-.profile>.profilebox>.rephoto{
-    position:absolute;
-    top:330px;
-    left:1070px;
-    width:64px;
-    height:67px;
-    border-radius:50%;
-    background-color:#0015AD;
-    cursor:pointer;
-}
-
-.profile>.profilebox>.rephoto>i{
-    position:absolute;
-    top:35px;
-    left:21px;
-    width:30.68px;
-    height:33.53px;
-    color:#D9D9D9;
-}
-
-.profile>.profilebox>.idbox{
-    position:absolute;
-    top:380px;
-    left:90px;
-    width:650px;
-    height:auto;
-    border:4px solid #5378FF;
-    border-top: 0px;
-    border-left:0px;
-    border-right:0px;
-    outline:none;
-}
-
-.profile>.profilebox>.idbox>p{
-    position: absolute;
-    top: -85px;
-    left: 10px;
-    font-family: 'Inter', sans-serif;
-    font-weight:700;
-    font-size:38px;
-    color:#4967FF;
-}
-
-.profile>.profilebox>.idbox>.idtext>p{
-    position: absolute;
-    left:380px;
-    top:-75px;
-    font-family: 'Inter', sans-serif;
-    font-weight:400;
-    font-size:31px;
-    color:#4967FF;
-}
-
-.profile>.profilebox>.emailbox2 {
-    position: absolute;
-    top: 500px;
-    left: 90px;
-    width: 650px;
-    height: auto;
-    border: 4px solid #5378FF;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    outline: none;
-}
-
-.profile>.profilebox>.emailbox2>p {
-    position: absolute;
-    top: -85px;
-    left: 10px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 38px;
-    color: #4967FF;
-}
-
-.profile>.profilebox>.emailbox2>.emailtext>p {
-    position: absolute;
-    left: 200px;
-    top: -75px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 31px;
-    color: #4967FF;
-}
-
-.profile>.profilebox>.explainbox1 {
-    position: absolute;
-    top: 620px;
-    left: 90px;
-    width: 1000px;
-    height: auto;
-    border: 4px solid #5378FF;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    outline: none;
-}
-
-.profile>.profilebox>.explainbox1>p {
-    position: absolute;
-    top: -85px;
-    left: 10px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 38px;
-    color: #4967FF;
-}
-
-.profile>.profilebox>.explainbox2 {
-    position: absolute;
-    top: 693px;
-    left: 90px;
-    width: 1000px;
-    height: auto;
-    border: 4px solid #5378FF;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    outline: none;
-}
-
-.profile>.profilebox>.explainbox2>.explaintext>p {
-    position: absolute;
-    left: 700px;
-    top: -75px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 31px;
-    color: #4967FF;
-}
-
