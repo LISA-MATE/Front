@@ -71,9 +71,14 @@ i {
     color:#242A57;
     letter-spacing: -5%;
 }
+.blue-white-container{
+    position: relative;
+}
 
 .bluebox{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     width:600px;
     height:723px;
@@ -84,6 +89,7 @@ i {
     background:linear-gradient(#4762FF, #78B6FF);
     box-shadow: 25px 0px 36px -1px rgba(0, 0, 0, 0.23);
     z-index: 2;
+    position: relative; /* 부모 요소를 relative로 설정 */
 }
 
 .bluebox>i{
@@ -94,7 +100,7 @@ i {
 
 .bluebox>p{
     color:white;
-    position:absolute;
+    text-align: center;
     top:180px;
     text-align: center;
     font-family: 'Inter', sans-serif;
@@ -103,14 +109,11 @@ i {
 }
 
 .bluebox>.text2{
-    display: flex;
-    justify-content: center;
+    margin-bottom: 40px;
 }
 
 .bluebox>.text2>p{
     color: white;
-    position: absolute;
-    top: 200px;
     text-align: center;
     font-family: 'Jua', sans-serif;
     font-weight: 400;
@@ -125,8 +128,6 @@ i {
 
 .bluebox>.text3>p{
     color: white;
-    position: absolute;
-    top: 390px;
     text-align: center;
     font-family: 'Pretendard-Regular';
     font-size: 25px;
@@ -145,6 +146,9 @@ i {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    top: 70%;
+    left: calc(42% + 20px); /* 오른쪽으로 20px 이동하도록 수정 */
+    transform: translateY(-50%); /* 수직 가운데 정렬 */
 }
 
 .whitebox>p{
@@ -342,32 +346,31 @@ i {
     cursor:pointer;
 }
 
-.circle1 {
+.circle-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh; /* 부모 요소의 높이에 맞추기 위해 설정 */
+}
+
+.circle1, .circle2, .circle3 {
     width: 9.19px;
     height: 9.19px;
     border-radius: 50%;
     background-color: #4967FF;
     position: absolute;
-    top: 805px;
-    right: 652px;
+}
+.circle1 {
+    bottom:5%;
+    margin-left: -30px;
 }
 
 .circle2{
-    width:9.19px;
-    height:9.19px;
-    border-radius: 50%;
-    background-color: #4967FF;
-    position:absolute;
-    top:805px;
-    right:637px;
+    bottom:5%;
 }
 
 .circle3{
-width: 9.19px;
-    height: 9.19px;
-    border-radius: 50%;
-    background-color: #4967FF;
-    position: absolute;
-    top: 805px;
-    right: 622px;
+    bottom:5%;
+    margin-left: 30px;
 }
